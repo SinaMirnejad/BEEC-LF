@@ -1,0 +1,5 @@
+/***Installations steps****/
+1 - Download and extract the project in your local director, ensure "Dockerfile" is located in this directory, and SinaMirnejadBEEC.jar is under "target" sub-directory. 
+2 - From the project's root directory */BEEC run the following command to create the docker image: "docker build -f Dockerfile -t <image-name> ."
+3 - Run docker using the image name created in the last step, via the following command line: "docker run -p 8080:8080 <image-name>"
+4 - Access the program from "<Your IP>.8080" or "http://localhost:8080"
